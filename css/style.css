@@ -55,7 +55,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70px;    
+    margin-top: 200px;    
     justify-content: flex-end;
 }
 .buscador{
@@ -102,13 +102,14 @@ input:focus {
 .barra:hover, .barra:active{
     background-color: #303134;
     color: aliceblue;
-    border: none;
+    border: 1px solid #303134;
 }
 .barra img{
     cursor: pointer;
 }
-a{
+a:hover, a:visited{
     cursor: pointer;
+    border-bottom: 1px solid white;
 }
 
 .barra .material-symbols-outlined{
